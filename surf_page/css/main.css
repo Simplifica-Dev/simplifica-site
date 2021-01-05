@@ -1,0 +1,137 @@
+/* All site */
+section {
+	margin: 0 0 50px 0 ;
+}
+div, h1 {
+	font-family: 'Alice', serif;
+}
+p , h4, input, label{
+	font-family: 'Nunito', sans-serif;
+}
+h1 {
+	font-size: 42px;
+}
+.border_radius-left {
+	border-radius: 5px 0px 0px 5px;
+}
+.border_radius-right {
+	border-radius: 0px 5px 5px 0px;
+}
+/* Header */
+.topo {
+	background-color: #269BFF;
+}
+.topo p {
+	color: #fff;
+}
+.nav-item a {
+	color:#fff;
+}
+.bg-navbar {
+	background-color:#17222D;
+}
+/* Section 1 */
+.banner_surf {
+	height: 400px;
+	background-image: url(/surf_page/static/img/surf1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.btn-form {
+	background-color: #EE2211;
+}
+/* Section 2 */
+.content {
+	width: 100%;
+	height: 370px;
+	background-image: url(/surf_page/static/img/surf2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.map_image {
+	margin-bottom: -40px;
+}
+.como_chegar h4 p{
+	font-size: 14px;
+}
+.como_chegar span{
+	color: #99AABB;
+}
+.destaque_text {
+	color: #269BFF;
+}
+.aulas_text_p {
+	color: #445566;
+	font-size: 18px;
+}
+/* Section 3 */
+.ondas{
+	margin-bottom: -20px
+}
+.planos {
+	background-color: #EFF4F9;
+}
+.planos p{
+	margin-bottom: 0;
+}
+.planos .title {
+	font-size: 24px;
+	color: #445566;
+}
+.planos .itens p {
+	font-size: 14px;
+	color: #445566;
+}
+.planos hr {
+	color: #EFF4F9;
+}
+/* Section 4 */
+.surf_banner {
+	height: 480px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(/surf_page/static/img/surf3.png);
+}
+.surf_banner div {
+	height: 100%;
+}
+.surf_banner p {
+	font-size: 18px;
+}
+/* CONTATO */
+.contact p{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.contact strong{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+/* FOOTER */
+footer {
+	background-color: #269BFF;
+}
+footer p {
+	color: #fff;
+}
+@media (min-width: 576px) { 
+	
+}
+@media (min-width: 768px) { 
+	h1 {
+		font-size: 72px;
+	}
+}
+@media (min-width: 992px) { 
+	.content {
+		height: 670px;
+	}
+}
+@media (min-width: 1200px) { 
+}
+@media (min-width: 1400px) { 
+}
