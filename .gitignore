@@ -1,0 +1,4 @@
+# ignore all logs 
+*.log 
+# sass cache
+*.sass-cache/

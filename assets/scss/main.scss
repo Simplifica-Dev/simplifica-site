@@ -1,0 +1,13 @@
+/* General classes */
+$color-primary: #000028;
+
+
+$color-secondary: #27FFA1;;
+
+/* Sections */
+.my-navbar {
+	background-color: $color-primary;
+    div {
+        color:#fff;
+    }
+}
