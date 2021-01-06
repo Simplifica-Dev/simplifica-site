@@ -33,7 +33,7 @@ h1 {
 /* Section 1 */
 .banner_surf {
 	height: 400px;
-	background-image: url(/surf_page/static/img/surf1.jpg);
+	background-image: url(../static/img/surf1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -46,7 +46,7 @@ h1 {
 .content {
 	width: 100%;
 	height: 370px;
-	background-image: url(/surf_page/static/img/surf2.png);
+	background-image: url(../static/img/surf2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -94,7 +94,7 @@ h1 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(/surf_page/static/img/surf3.png);
+	background-image: url(../static/img/surf3.png);
 }
 .surf_banner div {
 	height: 100%;
